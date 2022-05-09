@@ -1,5 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
+categories: {{ categories }}
+tags: {{ tags }}
 ---
+
+# what is XXXX
+# why is xxxx
+# How to Use
+# 參考連結

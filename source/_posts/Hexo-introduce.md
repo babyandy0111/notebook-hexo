@@ -1,6 +1,7 @@
 ---
 title: Hexo introduce
 date: 2022-02-07 17:25:49
+categories: Hexo
 tags: Hexo
 ---
 # what is Hexo

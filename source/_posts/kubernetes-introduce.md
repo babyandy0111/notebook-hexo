@@ -1,7 +1,8 @@
 ---
 title: kubernetes introduce
 date: 2022-05-07 20:45:37
-tags: k8s, kubernetes
+categories: kubernetes
+tags: k8s kubernetes
 ---
 # what is kubernetes
 Kubernetes（常簡稱為K8s）是用於自動部署、擴充和管理「容器化（containerized）應用程式」的開源系統。
