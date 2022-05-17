@@ -8,7 +8,7 @@ subtitle: 'i dont know how to coding'
 description: 'Hello Word~'
 keywords:
 author: Andy
-language: en
+language: zh-TW
 timezone: 'Asia/Taipei'
 
 # URL
@@ -105,3 +105,60 @@ deploy:
   type: 'git'
   repo: https://github.com/babyandy0111/notebook.git
   branch: master
+
+sitemap:
+  path:
+    - sitemap.xml
+#    - sitemap.txt
+  template: ./sitemap_template.xml
+#  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
+
+nofollow:
+  enable: true
+  field: site
+#  exclude: # 不加上 nofollow 的連結放在這邊
+#    - 'exclude1.com'
+#    - 'exclude2.com'
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+rss: /atom.xml
+banner: images/banner.jpg
+
+# Content
+excerpt_link: Read More
+fancybox: true
+recent_posts_limits: 5
+# Footer
+copyright: |-
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a></br>
+  All website licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></br>
+
+# Sidebar
+sidebar: right
+widgets:
+  - category
+  - tag
+  - tagcloud
+  - archives
+  - recent_posts
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
