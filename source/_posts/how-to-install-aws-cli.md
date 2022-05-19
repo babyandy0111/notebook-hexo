@@ -49,6 +49,15 @@ aws-cli/2.2.44 Python/3.8.8 Darwin/20.5.0 exe/x86_64 prompt/off
 
 成功拉～
 接下來如果要建立k8s集群，還需要kubectl和eksctl，下一篇繼續。
+記得配一下config~
+
+```bash 
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: us-west-2
+Default output format [None]: json
+```
 
 # 參考連結
 [aws cli doc](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
