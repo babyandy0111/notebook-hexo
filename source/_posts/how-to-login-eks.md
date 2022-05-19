@@ -6,13 +6,12 @@ tags: aws login eks k8s
 ---
 這邊記錄一下，假設你已經有AWS的EKS叢集，若你想要在不同的地方進行登入時，所需要進行的步驟：
 
-- 確認當前的開發機器上，AWS CLI與eksctl 均已安裝，並且是最新的，而AWS CLI與kubectl的版本有點關係，可以看看這[issue](https://github.com/aws/aws-cli/issues/6920) ， 主要解法就是更新一下CLI並重新 [set config]( https://stackoverflow.com/questions/72126048/error-exec-plugin-invalid-apiversion-client-authentication-k8s-io-v1alpha1-c) 
-。
+- 確認當前的開發機器上，AWS CLI與eksctl 均已安裝，並且是最新的，而AWS CLI與kubectl的版本有點關係，可以看看這[issue](https://github.com/aws/aws-cli/issues/6920) ， 主要解法就是更新一下CLI並重新 [set config]( https://stackoverflow.com/questions/72126048/error-exec-plugin-invalid-apiversion-client-authentication-k8s-io-v1alpha1-c)
 
 <br>
 
 - 如果你是叢集的建立者
-1. 若要查看您的 AWS CLI 使用者或角色的組態，請執行以下命令：
+1. 若要查看你的 AWS CLI 使用者或角色的組態，請執行以下命令：
 ```shell
 $ aws sts get-caller-identity
 {
@@ -30,7 +29,7 @@ $ aws sts get-caller-identity
 
 3. set你的kubeconfig，注意，需要用正確的IAM身份執行
 ```shell
-# 將 eks-cluster-name 取代為您的叢集名稱。將 aws-region 取代為您的 AWS 區域
+# 將 eks-cluster-name 取代為你的叢集名稱。將 aws-region 取代為你的 AWS 區域
 $ aws eks update-kubeconfig --name eks-cluster-name --region aws-region
 
 # 或者連同ARN一起設定
@@ -46,7 +45,7 @@ $ kubectl config view --minify
 
 <br>
 
-5. 若要確認您的 IAM 使用者或角色是否經驗證
+5. 若要確認你的 IAM 使用者或角色是否經驗證
 ```shell
 $ kubectl get svc
 ```
@@ -73,7 +72,7 @@ $ kubectl edit configmap aws-auth -n kube-system
 
 3. 管理員將新arn填入，格式如下
 ```shell
-# 將 testuser 取代為您的使用者名稱
+# 將 testuser 取代為你的使用者名稱
 # arn 取代為拿到的arn
 mapUsers: |
   - userarn: arn:aws:iam::XXXXXXXXXXXX:user/testuser
@@ -82,7 +81,7 @@ mapUsers: |
       - system:masters
       
 # 將 IAM 角色新增到 mapRoles
-# 將 testrole 取代為您的角色
+# 將 testrole 取代為你的角色
 # arn 取代為拿到的arn
 mapRoles: |
   - rolearn: arn:aws:iam::XXXXXXXXXXXX:role/testrole
