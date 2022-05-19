@@ -26,7 +26,7 @@ Worker           |  k8s-worker02 | 4GB Ram, 2vcpus
 
 #### 針對Ubuntu進行配置
 - 先關掉 swap
-  ```
+  ```shell
   sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
   sudo swapoff -a
   ```
@@ -34,7 +34,7 @@ Worker           |  k8s-worker02 | 4GB Ram, 2vcpus
   <br>
 
 - 接著啟用內核模組與配置sysctl
-  ```
+  ```shell
     # Enable kernel modules
     sudo modprobe overlay
     sudo modprobe br_netfilter
@@ -53,7 +53,7 @@ Worker           |  k8s-worker02 | 4GB Ram, 2vcpus
   <br>
 
 - 更新一下，並重新開機
-  ```
+  ```shell
     sudo apt update
     sudo apt -y full-upgrade
     [ -f /var/run/reboot-required ] && sudo reboot -f
@@ -66,7 +66,7 @@ Worker           |  k8s-worker02 | 4GB Ram, 2vcpus
   cgroups是啥呢，你可以把它理解成一個進程處理隔離工具，docker就是用它来實現容器的隔離的。docker 默認使用的是cgroupfs，
   而 k8s 也用到了一个進程隔離工具systemd，如果使用兩個隔離工具的話可能會引起異常，所以必須要把 docker 的也改成systemd。
 
-  ```
+  ```shell
     # 更新並安裝相關所需套件
     sudo apt update
     sudo apt install -y curl gnupg2 software-properties-common apt-transport-https ca-certificates
@@ -109,7 +109,7 @@ Worker           |  k8s-worker02 | 4GB Ram, 2vcpus
 
   為每一個節點都安裝 kubelet, kubeadm and kubectl
 
-  ```
+  ```shell
   sudo apt -y install curl apt-transport-https
   
   # 增加repo
@@ -128,7 +128,7 @@ Worker           |  k8s-worker02 | 4GB Ram, 2vcpus
   <br>
 
 #### 建立並初始化master節點
-  ```
+  ```shell
   # 初始化
   kubeadm init \
   --apiserver-advertise-address=192.168.0.1 \
@@ -150,8 +150,12 @@ ssh 進入worker，並執行剛剛的join語法。 <br>
 ![label](install-k8s-on-Ubuntu/kube-init-2.png)
 
 #### 確認
-``` kubectl get nodes ``` 
+```shell 
+kubectl get nodes 
+``` 
+
 <br>
+
 ![label](install-k8s-on-Ubuntu/kube-init-3.png)
 
 
