@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220616/how-to-build-nestjs-on-eks-fargate/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220510/understanding-k8s-component/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220510/snyk/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220507/kubernetes-introduce/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220517/install-k8s-on-gcp/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220516/install-k8s-on-Ubuntu/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220519/how-to-login-eks/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220519/how-to-install-kubectl/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220525/how-to-using-swagger-on-NestJs/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220524/how-to-install-k8s-on-azure/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220523/how-to-install-k8s-on-aws/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220523/how-to-install-azure-cli/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220519/how-to-install-eksctl/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220517/how-to-install-gcloud/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220519/how-to-install-aws-cli/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220616/hello-world/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220525/how-to-install-NestJs/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220510/docker-introduce/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220519/fig-Terminal/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220207/Hexo-introduce/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/20220528/build-CRUD-with-mysql-on-NestJs/</loc>
+        
+        <lastmod>2022-06-16</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    
+
+    <url>
+        <loc>https://babyandy0111.github.io/notebook</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/Hexo/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/mysql-crud-NestJs/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/docker-container-image/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/fig-terminal/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/nodejs-nestjs-express/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/aws-cli/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/azure-cli/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/aws-eksctl/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/aws-nestjs-fargate/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/gcp-gcloud/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/k8s-cluster/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/azure-k8s-cluster/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/aws-login-eks-k8s/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/kubectl/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/nodejs-nestjs-swagger/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/k8s-kubernetes-cluster/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/Snyk-Security/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/k8s-component/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/tags/k8s-kubernetes/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/Hexo/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/mysql-crud-NestJs/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/docker/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/fig/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/nodejs-nestjs/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/aws/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/azure/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/nodejs-nestjs-doc-swagger-fargate-aws/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/gcp-gcloud/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/kubectl/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/nodejs-nestjs-doc-swagger/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/kubernetes/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+    <url>
+        <loc>https://babyandy0111.github.io/notebook/categories/Snyk/</loc>
+        <lastmod>2022-06-16</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+    
+</urlset>
