@@ -76,6 +76,13 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller \
     -n kube-system
 ```
 
+<br>
+如果你要確認你的VPC ID
+
+```sh
+aws cloudformation describe-stacks --stack-name eksctl-andy-lab-cluster | jq -r '[.Stacks[0].Outputs[] | {key: .OutputKey, value: .OutputValue}] | from_entries' | jq -r '.VPC'
+```
+
 # 準備好docker file
 ```dockerfile
 FROM node:alpine AS dev
@@ -169,3 +176,9 @@ $ kubectl get svc
 <br>
 
 ![label](./how-to-build-nestjs-on-eks-fargate/1.png)
+
+
+# 後記
+其實使用fargate eks建立pod頗簡單，且不用特別去管理主機問題，省事許多，不過fargate有一些限制，這部分可以參考AWS的說明。
+
+
