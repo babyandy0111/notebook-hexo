@@ -103,7 +103,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/babyandy0111/notebook.git
+  repo: git@github.com:babyandy0111/notebook.git
   branch: master
 
 sitemap:
